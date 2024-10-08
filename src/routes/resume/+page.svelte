@@ -9,6 +9,7 @@
 	<div class="resume">
 		{#if data}
 			<a href={data} download>
+				<!-- whenn clicked on the item download the resume  -->
 				<Chip size={'1.25em'}>Download</Chip>
 			</a>
 		{:else}
