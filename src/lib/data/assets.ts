@@ -71,7 +71,14 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	Nextjs: a('nextjs.svg')
+	Nextjs: a('nextjs.svg'),
+	Git: a('git.svg'),
+	Github: a('github.svg'),
+	azure: a('azure.svg'),
+	linux: a('linux.svg'),
+	netlify: a('netlify.svg'),
+	postman: a('postman.svg'),
+	api: a('api.svg'),
 };
 
 export default Assets;
