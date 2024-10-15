@@ -14,7 +14,7 @@ const categories = [
 	defineSkillCategory({ name: 'ORMs', slug: 'orm' }),
 	defineSkillCategory({ name: 'DevOps', slug: 'devops' }),
 	defineSkillCategory({ name: 'Testing', slug: 'test' }),
-	defineSkillCategory({ name: 'Dev Tools', slug: 'devtools' }),
+	defineSkillCategory({ name: 'Cloud Services & Dev Tools', slug: 'devtools' }),
 	defineSkillCategory({ name: 'Markup & Style', slug: 'markup-style' }),
 	defineSkillCategory({ name: 'Design', slug: 'design' }),
 	defineSkillCategory({ name: 'Soft Skills', slug: 'soft' })
@@ -123,20 +123,18 @@ Wasif believes that just as learning programming in one language makes it easier
 	defineSkill({
 		slug: 'nextjs',
 		color: 'orange',
-		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
-
-Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		description: `Wasif Khan learned Next.js after mastering React because he recognized that Next.js addressed some of React's limitations, particularly with features like built-in routing and SEO optimization. He found the transition smooth, as Next.js builds on React's principles, making it easy for him to adopt. This allowed him to create more efficient, user-friendly applications while leveraging the benefits of server-side rendering and static site generation. Overall, his experience highlighted the synergy between React and Next.js in modern web development.`,
 		logo: Assets.Nextjs,
 		name: 'Next Js',
 		category: 'library'
 	}),
-	
+
 	defineSkill({
 		slug: 'nodejs',
 		color: 'orange',
-		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+		description: `Wasif Khan had a strong interest in full stack development, driven by his curiosity to learn new technologies. Recognizing that the backend is the backbone of any application, he decided to dive into backend development. He learned Node.js, which he found beginner-friendly due to his existing experience with JavaScript. This made it easier for him to grasp the concepts and functionalities of Node.js.
 
-Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+After mastering Node.js in 2022, Wasif applied his knowledge to build functional forms and various applications, enhancing his skills and expanding his portfolio. His journey reflects his dedication to becoming a well-rounded full stack developer, blending both frontend and backend expertise.`,
 		logo: Assets.NodeJs,
 		name: 'Node Js',
 		category: 'library'
@@ -144,9 +142,9 @@ Wasif believes that just as learning programming in one language makes it easier
 	defineSkill({
 		slug: 'expressjs',
 		color: 'orange',
-		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+		description: `After diving into Node.js, Wasif Khan explored Express.js, a powerful framework that significantly simplified server-side development and reduced his workload. He found the journey with Express.js particularly enjoyable, especially when learning about routing, middleware, and controllers. The concepts of authorization tokens further piqued his interest in backend development.
 
-Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+As he delved deeper into Express.js, Wasif began exploring databases and various backend libraries, broadening his understanding and skill set. This exploration not only enhanced his capabilities as a full stack developer but also fueled his passion for creating robust, efficient applications. His enthusiasm for learning and building with these technologies reflected his commitment to mastering backend development.`,
 		logo: Assets.ExpressJs,
 		name: 'Express Js',
 		category: 'library'
@@ -154,12 +152,125 @@ Wasif believes that just as learning programming in one language makes it easier
 	defineSkill({
 		slug: 'db',
 		color: 'orange',
-		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+		description: `MongoDB was one of the first databases Wasif Khan worked with, and he quickly became adept at creating RESTful APIs using Node.js and Express.js as the server. He found that while populating databases was relatively straightforward, the real challenge lay in designing an efficient architecture for API requests that balanced performance and cost-effectiveness.
 
-Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+Wasif learned the importance of managing data effectively, implementing strategies to cache data and refresh the cache when the database was updated. This approach not only optimized performance but also reduced costs for the company by minimizing unnecessary database queries. His experience with MongoDB and API design further solidified his skills in backend development, allowing him to create more efficient and scalable applications.`,
 		logo: Assets.MongoDB,
 		name: 'MongoDB',
 		category: 'db'
+	}),
+	// Databases descrip has been updated beggining from below tomoroow
+	// devtools start
+	defineSkill({
+		slug: 'library',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.AWS,
+		name: 'AWS',
+		category: 'devtools'
+	}),
+	// devtools first item end
+
+	defineSkill({
+		slug: 'frameworks',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'db',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.azure,
+		name: 'Azure DevOps',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'devtools',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.linux,
+		name: 'Kali Linux',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'soft',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.Github,
+		name: 'Github',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'skill',
+		color: 'orange',
+		description: `When Wasif Khan learned TypeScript, he also discovered that it was specifically designed to work seamlessly with AngularJS. Intrigued, he jumped into exploring AngularJS and its core concepts. As he delved deeper, he appreciated how AngularJS structured applications and facilitated the development of dynamic web interfaces.
+
+Wasif believes that just as learning programming in one language makes it easier to pick up others—due to shared core concepts—similarly, mastering one framework or library lays the groundwork for understanding others. His experience with TypeScript and AngularJS reinforced this idea, allowing him to transition smoothly between different tools and technologies. This approach not only accelerated his learning process but also enriched his overall development skill set, making him a more versatile and confident developer.`,
+		logo: Assets.netlify,
+		name: 'Netlify',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'hard',
+		color: 'orange',
+		description: ``,
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'pro',
+		color: 'orange',
+		description: ``,
+		logo: Assets.postman,
+		name: 'Postman',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'api',
+		color: 'orange',
+		description: ``,
+		logo: Assets.api,
+		name: 'Restful APis',
+		category: 'devtools'
+	}),
+
+	defineSkill({
+		slug: 'vite',
+		color: 'orange',
+		description: ``,
+		logo: Assets.Vite,
+		name: 'Vite',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'photoshop',
+		color: 'orange',
+		description: ``,
+		logo: Assets.Photoshop,
+		name: 'Photoshop',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'Illustrator',
+		color: 'orange',
+		description: ``,
+		logo: Assets.Illustrator,
+		name: 'Illustrator',
+		category: 'devtools'
 	})
 ] as const;
 
@@ -197,9 +308,9 @@ export const groupByCategory = (
 		category.items.push(item);
 	});
 
-	if (others.length !== 0) {
-		out.push({ category: { name: 'Others', slug: 'others' }, items: others });
-	}
+	// if (others.length !== 0) {
+	// 	out.push({ category: { name: 'Others', slug: 'others' }, items: others });
+	// }
 
 	return out;
 };
