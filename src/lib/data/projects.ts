@@ -20,6 +20,28 @@ export const items: Array<Project> = [
 		type: 'Website Template'
 	},
 	{
+		slug: 'partfalio',
+		color: '#5e95e3',
+		description:
+			'Lorem ipsum dolor sit amet consectetur  laborum!',
+		shortDescription:
+			'It is a partfolio website intending to show you fuck',
+		links: [{ to: 'https://reddit.com', label: 'Link to project' }], //project link
+		logo: Assets.AdonisJs,
+		name: 'partfalio',
+		period: {
+			from: new Date('2024 10 11')
+		},
+		skills: getSkills('Illustrator','photoshop','nodejs','netlify', 'nextjs','aws','Py','Restfulapi','azure','css','docker','expressjs','git','html','github','js','vite','svelte','ts'),
+		type: 'Stupoid',
+		screenshots: [
+			{
+				label: 'screen 1',
+				src: 'https://images.pexels.com/photos/18940717/pexels-photo-18940717/free-photo-of-golden-retriever-lying-in-the-park.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
+			}
+		]
+	},
+	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
