@@ -7,40 +7,99 @@ export const items: Array<Project> = [
 		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
+			'ai app',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores v!',
+		links: [{ to: 'https://voicera.netlify.app/', label: 'Visit Project' }],
+		logo: Assets.ReactJs,
+		name: 'Ai Web Application',
+		period: {
+			from: new Date("2024-09-10"),
+			to: new Date('2024 10 1')
+		},
+		skills: getSkills('ts', 'tailwind', 'vite',`tensor`,'tensorFlow','netlify'),
+		type: 'Face Detection App',
+		screenshots: [
+			{
+				label: 'Home Page',
+				src:`${ Assets.aiOne}`
+			},
+			{
+				label: 'Live Webcam',
+				src:`${ Assets.aiTwo}`
+			},
+			{
+				label: 'Ai Didn\'t Detected Face',
+				src:`${ Assets.aiThree}`
+			},
+			{
+				label: 'Ai Detected Face ',
+				src:`${ Assets.aiFour}`
+			},
+			{
+				label: 'Prompt',
+				src:`${ Assets.aiFive}`
+			},
+		
+		
+		
+		
+		
+		
+		]
+	},
+	{
+		slug: 'slick-portfolio-angular',
+		color: '#5e95e3',
+		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.ReactJs,
 		name: 'Slick Portfolio',
 		period: {
-			from: new Date()
+			from: new Date("2022-03-25"),
+			to: new Date('2013 10 11')
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
 		type: 'Website Template'
 	},
 	{
-		slug: 'partfalio',
+		slug: 'slick-portfolio-angular',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur  laborum!',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
-			'It is a partfolio website intending to show you fuck',
-		links: [{ to: 'https://reddit.com', label: 'Link to project' }], //project link
-		logo: Assets.AdonisJs,
-		name: 'partfalio',
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		logo: Assets.ReactJs,
+		name: 'Slick Portfolio',
 		period: {
-			from: new Date('2024 10 11')
+			from: new Date("2022-03-25"),
+			to: new Date('2013 10 11')
 		},
-		skills: getSkills('Illustrator','photoshop','nodejs','netlify', 'nextjs','aws','Py','Restfulapi','azure','css','docker','expressjs','git','html','github','js','vite','svelte','ts'),
-		type: 'Stupoid',
-		screenshots: [
-			{
-				label: 'screen 1',
-				src: 'https://images.pexels.com/photos/18940717/pexels-photo-18940717/free-photo-of-golden-retriever-lying-in-the-park.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
-			}
-		]
+		skills: getSkills('angular', 'ts', 'tailwind'),
+		type: 'Website Template'
 	},
+	{
+		slug: 'slick-portfolio-angular',
+		color: '#5e95e3',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		shortDescription:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		logo: Assets.Nextjs,
+		name: 'Slick Portfolio',
+		period: {
+			from: new Date("2022-03-25"),
+			to: new Date('2013 10 11')
+		},
+		skills: getSkills('angular', 'ts', 'tailwind'),
+		type: 'Website Template'
+	},
+	
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
