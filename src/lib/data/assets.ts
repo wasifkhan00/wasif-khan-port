@@ -78,7 +78,17 @@ const Assets = {
 	linux: a('linux.svg'),
 	netlify: a('netlify.svg'),
 	postman: a('postman.svg'),
+	TensorFLow: a('tensor.svg'),
 	api: a('api.svg'),
+	aiOne: a('Ai1.PNG'),
+	aiTwo: a('Ai2.PNG'),
+	aiThree: a('Ai3.PNG'),
+	aiFour: a('Ai4.PNG'),
+	aiFive: a('Ai5.PNG'),
+	// api: a('api.svg'),
+	// api: a('api.svg'),
+	// api: a('api.svg'),
+
 };
 
 export default Assets;

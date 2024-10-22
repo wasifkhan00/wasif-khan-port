@@ -282,6 +282,14 @@ In 2019, he began using Adobe Illustrator to create SVG vectors and design logos
 		logo: Assets.Illustrator,
 		name: 'Illustrator',
 		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'tensorFlow',
+		color: 'orange',
+		description: ``,
+		logo: Assets.TensorFLow,
+		name: 'TensorFlow',
+		category: 'devtools'
 	})
 ] as const;
 
