@@ -4,12 +4,18 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'Ai_Application',
 		color: '#5e95e3',
 		description:
-			'ai app',
+			`Wasif Khan has developed an AI web application that reflects his journey in artificial intelligence. Throughout this project, he gained valuable insights into AI model training and the essential role of Python in creating AI-based applications. His commitment to exploring these technologies is evident in his use of various libraries, including TensorFlow.
+
+In addition to learning about model training, Wasif delved into web application development, discovering how to implement retry mechanisms for API calls to enhance user experience. This focus on reducing potential issues underscores his dedication to creating robust and user-friendly applications, aligning with current trends in the tech industry.`,
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores v!',
+			`Discover Wasif Khan's AI web application! Dive into a user-friendly experience that showcases cutting-edge AI technology.
+
+
+
+`,
 		links: [{ to: 'https://voicera.netlify.app/', label: 'Visit Project' }],
 		logo: Assets.ReactJs,
 		name: 'Ai Web Application',

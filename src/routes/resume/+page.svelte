@@ -9,7 +9,7 @@
 		{#if data}
 			<a href={data} download>
 				<!-- whenn clicked on the item download the resume  -->
-				<Chip size={'1.25em'}>Download</Chip>
+				<Chip size={'1.25em'}>Download Resume as PDF</Chip>
 			</a>
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
