@@ -27,9 +27,17 @@
 		}
 	}
 
+
 	// svelte typing is broken...
+
 	const onHover: MouseEventHandler<HTMLDivElement> = (ev) => {
-		const target = ev.currentTarget;
+
+
+
+const target = ev.currentTarget;
+
+
+
 
 		const rect = target.getBoundingClientRect();
 
@@ -71,6 +79,7 @@
 		' '
 	)}`}
 	style:bgColor={'red'}
+	data-help={'Click the card to view details'}
 >
 	<div class="card-bg-img flex-1 flex flex-col p-25px rounded-15px">
 		<slot />
@@ -79,7 +88,9 @@
 
 <style lang="scss">
 	.card {
+
 		--border-color: transparent;
+		--bg-color: red;
 		--bg-color: transparent;
 		--drop-color: transparent;
 
@@ -109,5 +120,34 @@
 			transform: perspective(1000px) rotateX(var(--rot-x)) rotateY(var(--rot-y)) scale(1.01);
 			border-color: var(--border-hover);
 		}
+
+		
+		
+	
+		&:hover {
+			&:after {
+				content: attr(data-help);
+				display: inline-block;
+				position: absolute;
+				width: max-content;
+				background-color: var(--bg-color);
+				padding: 5px 10px;
+				font-size: 11px;
+				right: 10%;
+				top: calc(5% + 5px);
+				border: 1px solid var(--border);
+				border-radius: 15px;
+			}
+		}
+
+
+
+
+
+
+
+
+
+
 	}
 </style>

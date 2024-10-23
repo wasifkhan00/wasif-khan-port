@@ -26,10 +26,13 @@
 		: 'now';
 </script>
 
-<Card color={project.color} href={`${base}/projects/${project.slug}`}>
+
+	<Card color={project.color} href={`${base}/projects/${project.slug}`} >
+		
+	
 	<CardLogo alt={project.name} src={getAssetURL(project.logo)} size={40} radius={'0'} />
-	<div class="m-t-20px row justify-between items-center">
-		<CardTitle title={project.name} />
+	<div class="m-t-20px row justify-between items-center" >
+		<CardTitle title={project.name}  />
 		<div class="row">
 			{#each project.links as link}
 				<CardLink label={link.label ?? ''} to={link.to} />
@@ -70,4 +73,5 @@
 			/>
 		{/each}
 	</div>
+
 </Card>
