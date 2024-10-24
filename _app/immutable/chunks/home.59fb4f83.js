@@ -1,1 +1,0 @@
-import{P as s}from"./types.1ebf2f37.js";import{g as t}from"./skills.2160b046.js";const l="Home",o="Wasif Khan",n="",m=[{platform:s.GitHub,link:"https://github.com/"},{platform:s.Linkedin,link:"https://www.linkedin.com/"},{platform:s.Email,link:"riadh_adrani@hotmail.fr"}],r=t("js","css","html","reactjs","sass","svelte","ts");export{m as a,n as l,o as n,r as s,l as t};
