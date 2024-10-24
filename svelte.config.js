@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 // commission 
-const base = '/';
+const base = '/wasif-khan-port';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
