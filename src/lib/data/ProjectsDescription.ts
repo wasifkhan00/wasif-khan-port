@@ -46,7 +46,24 @@ Feel free to  <a href='https://github.com/wasifkhan00/weather' target="_blank"
 };
 
 export const MessengerProjectDescription:projectDescriptionType  = {
-	longDescription: ``,
+	longDescription: `
+    This application presents a dynamic platform for real-time group chatting, designed to facilitate seamless communication among users. 
+    One of the key features is the management of group dynamics, which allows users to engage in meaningful conversations while also 
+    having control over their interactions. Users can easily add friends to their chat groups, rename the group, delete messages,
+    or even leave the group whenever they choose. However, to maintain a manageable conversation flow, the app limits the group size
+    to a maximum of five users,ensuring that discussions remain intimate and focused. 
+    
+    The architecture of this app involves both a frontend and backend component, which are hosted separately for optimal performance. 
+    The frontend is built with React and is deployed on Netlify, a Platform as a Service (PaaS) that simplifies hosting and scaling 
+    web applications. Meanwhile, the backend runs on an AWS EC2 instance, utilizing a paid domain to ensure reliability and security. 
+    This dual-hosting setup not only enhances the application's performance but also provides an opportunity to leverage cloud computing
+    capabilities through AWS, allowing for greater scalability and flexibility.
+
+    Throughout the development process, I encountered various challenges, particularly in managing the different components of the 
+    application. This experience greatly expanded my knowledge of modern web technologies, specifically in areas such as React for 
+    building user interfaces,Socket.IO for enabling real-time communication, and Express.js for creating robust server-side 
+    applications. Additionally, I gained practical experience in utilizing MongoDB for data storage and AWS for cloud hosting, 
+    which are crucial skills in today’s tech landscape.`,
 	shortDescription: `Experience seamless communication with our real-time messaging app! Connect instantly with friends and colleagues through text, and photos, Join now to elevate your conversations and stay connected!`
 };
 
