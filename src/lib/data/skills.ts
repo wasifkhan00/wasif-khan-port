@@ -286,7 +286,11 @@ In 2019, he began using Adobe Illustrator to create SVG vectors and design logos
 	defineSkill({
 		slug: 'tensorFlow',
 		color: 'orange',
-		description: ``,
+		description: `Wasif Khan has gained valuable experience with TensorFlow while developing an AI detection application. He was drawn to TensorFlow due to its user-friendly interface and robust capabilities, making it an ideal choice for his project. The ease of use allowed him to quickly get started and explore the extensive features of the framework.
+
+In his initial work, Wasif utilized pre-defined face detection models, which provided a solid foundation for understanding how TensorFlow functions. This approach enabled him to effectively implement face detection in his application without the need for extensive training data or complex model architecture. However, he views this as just the beginning of his journey with TensorFlow.
+
+Eager to deepen his skills, Wasif is enthusiastic about training custom models and exploring advanced techniques in machine learning and computer vision. Recognizing the growing importance of these technologies in various applications, he is committed to staying updated with the latest advancements in the field. As he continues to refine his expertise, Wasif is excited about the potential of TensorFlow to drive innovation in AI and contribute to future projects.`,
 		logo: Assets.TensorFLow,
 		name: 'TensorFlow',
 		category: 'devtools'
