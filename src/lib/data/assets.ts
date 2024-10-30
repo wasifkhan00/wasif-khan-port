@@ -80,6 +80,8 @@ const Assets = {
 	postman: a('postman.svg'),
 	TensorFLow: a('tensor.svg'),
 	api: a('api.svg'),
+	apiOne: a('apiOne.JPG'),
+	apiTwo: a('apiTwo.JPG'),
 	aiOne: a('Ai1.PNG'),
 	aiTwo: a('Ai2.PNG'),
 	aiThree: a('Ai3.PNG'),
@@ -98,10 +100,22 @@ const Assets = {
 	weatherFour: a('weatherappFour.JPG'),
 	weatherFive: a('weatherappFive.JPG'),
 	weatherSix: a('weatherappSix.JPG'),
-	// api: a('api.svg'),
-	// api: a('api.svg'),
-	// api: a('api.svg'),
-
+	chatAppOne: a('chatappOne.JPG'),
+	chatAppTwo: a('chatappTwo.JPG'),
+	chatAppThree: a('chatappThree.JPG'),
+	chatAppFour: a('chatappFour.JPG'),
+	chatAppFive: a('chatappFive.JPG'),
+	chatAppSix: a('chatappSeven.JPG'),
+	chatAppSeven: a('chatappEight.JPG'),
+	chatAppEight: a('chatappNine.JPG'),
+	chatAppNine: a('chatappTen.JPG'),
+	chatAppTen: a('chatappFourteen.JPG'),
+	chatAppEleven: a('chatappNinteen.jpeg'),
+	chatAppTwelve: a('chatappTwenty.jpeg'),
+	chatAppThireteen: a('chatappEleven.jpeg'),
+	chatAppFourteen: a('chatappTwelve.jpeg'),
+	
+	
 };
 
 export default Assets;

@@ -7,20 +7,44 @@ export const name = 'Wasif Khan';
 
 export const lastName = '';
 
-export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+export const description = '';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/wasifkhan00/' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/ukhanwasif/'
 	},
 
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'ukhanwasif@gmail.com'
 	}
 ];
 
-export const skills = getSkills('js', 'css', 'html', 'reactjs','svelte', 'ts','Restfulapi','angularjs','Py','aws','azure','docker','github','git','expressjs','linux','mongodb','netlify','nextjs','vite','tensorFlow','postman','Illustrator','photoshop');
+export const skills = getSkills(
+	'js',
+	'css',
+	'html',
+	'reactjs',
+	'svelte',
+	'ts',
+	'Restfulapi',
+	'angularjs',
+	'Py',
+	'aws',
+	'azure',
+	'docker',
+	'github',
+	'git',
+	'expressjs',
+	'linux',
+	'mongodb',
+	'netlify',
+	'nextjs',
+	'vite',
+	'tensorFlow',
+	'postman',
+	'Illustrator',
+	'photoshop'
+);
