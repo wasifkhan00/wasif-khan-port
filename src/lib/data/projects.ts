@@ -1,15 +1,20 @@
 import Assets from './assets';
 import { getSkills } from './skills';
 import type { Project } from '../types';
-import { AiProjectDescription, CryptoCurrencyProjectDescription, MessengerProjectDescription, WeatherProjectDescription } from './ProjectsDescription';
-const labels:string = 'Visit Project'
+import {
+	AiProjectDescription,
+	CryptoCurrencyProjectDescription,
+	MessengerProjectDescription,
+	WeatherProjectDescription
+} from './ProjectsDescription';
+const labels: string = 'Visit Project';
 export const items: Array<Project> = [
 	{
 		slug: 'Ai_Application',
 		color: '#5e95e3',
 		description: AiProjectDescription.longDescription,
 		shortDescription: AiProjectDescription.shortDescription,
-		links: [{ to: 'https://voicera.netlify.app/', label:labels }],
+		links: [{ to: 'https://voicera.netlify.app/', label: labels }],
 		logo: Assets.ReactJs,
 		name: 'Ai Web Application',
 		period: {
@@ -116,9 +121,7 @@ export const items: Array<Project> = [
 		color: '#5e95e3',
 		description: WeatherProjectDescription.longDescription,
 		shortDescription: WeatherProjectDescription.shortDescription,
-		links: [
-			{ to: 'https://wasifkhan00.github.io/weather/', label: labels }
-		],
+		links: [{ to: 'https://wasifkhan00.github.io/weather/', label: labels }],
 		logo: Assets.JavaScript,
 		name: 'Real-time Weather Application',
 		period: {
@@ -129,8 +132,28 @@ export const items: Array<Project> = [
 		type: 'Real-time Weather Data based on your location',
 		screenshots: [
 			{
-				label: 'screen',
+				label: 'Home',
 				src: `${Assets.weatherOne}`
+			},
+			{
+				label: 'Hourly Weather Forecast',
+				src: `${Assets.weatherTwo}`
+			},
+			{
+				label: 'Hourly Forecast Cards',
+				src: `${Assets.weatherThree}`
+			},
+			{
+				label: 'Footer',
+				src: `${Assets.weatherFour}`
+			},
+			{
+				label: 'Weekly Forecast',
+				src: `${Assets.weatherFive}`
+			},
+			{
+				label: 'Weekly Forecast Cards',
+				src: `${Assets.weatherSix}`
 			}
 		]
 	},
@@ -139,16 +162,29 @@ export const items: Array<Project> = [
 	{
 		slug: 'Messenger_Application',
 		color: '#5e95e3',
-		description:MessengerProjectDescription.longDescription,
-		shortDescription:MessengerProjectDescription.shortDescription,
-		links: [{ to: 'https://stewardsmessenger.netlify.app/', label: labels}],
+		description: MessengerProjectDescription.longDescription,
+		shortDescription: MessengerProjectDescription.shortDescription,
+		links: [{ to: 'https://stewardsmessenger.netlify.app/', label: labels }],
 		logo: Assets.ReactJs,
 		name: 'Real-time Communication Application',
 		period: {
 			from: new Date('2022-11-25'),
 			to: new Date('2023 04 14')
 		},
-		skills: getSkills('reactjs', 'Restfulapi','css','aws','expressjs','mongodb','git','github','nodejs','netlify','linux','js'),
+		skills: getSkills(
+			'reactjs',
+			'Restfulapi',
+			'css',
+			'aws',
+			'expressjs',
+			'mongodb',
+			'git',
+			'github',
+			'nodejs',
+			'netlify',
+			'linux',
+			'js'
+		),
 		type: 'Real-time Messaging Application'
 	},
 
