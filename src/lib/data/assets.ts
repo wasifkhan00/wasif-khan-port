@@ -79,6 +79,7 @@ const Assets = {
 	netlify: a('netlify.svg'),
 	postman: a('postman.svg'),
 	TensorFLow: a('tensor.svg'),
+	whatsapp: a('whatsapp.png'),
 	api: a('api.svg'),
 	apiOne: a('apiOne.JPG'),
 	apiTwo: a('apiTwo.JPG'),

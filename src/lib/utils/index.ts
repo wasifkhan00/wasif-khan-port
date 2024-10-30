@@ -1,3 +1,4 @@
+import Assets from '$lib/data/assets';
 import { Platform } from '$lib/types';
 
 export enum EmploymentType {
@@ -6,7 +7,8 @@ export enum EmploymentType {
 	SelfEmployed = 'Self-employed',
 	Freelance = 'Freelance',
 	Contract = 'Contract',
-	Internship = 'Internship'
+	Internship = 'Internship',
+
 }
 
 export enum Icons {
@@ -48,6 +50,7 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 			return Icons.Twitter;
 		case Platform.Youtube:
 			return Icons.Youtube;
+			
 	}
 };
 

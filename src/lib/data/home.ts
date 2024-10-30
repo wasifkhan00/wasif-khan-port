@@ -1,4 +1,5 @@
 import { Platform } from '$lib/types';
+import Assets from './assets';
 import { getSkills } from './skills';
 
 export const title = 'Home';
