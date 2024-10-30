@@ -59,108 +59,6 @@ export const items: Array<Project> = [
 	},
 	// Project 2 start
 	{
-		slug: 'CryptoCurrency_Application',
-		color: '#5e95e3',
-		description: CryptoCurrencyProjectDescription.longDescription,
-		shortDescription: CryptoCurrencyProjectDescription.shortDescription,
-		links: [{ to: 'https://blockchainpal.netlify.app/', label: labels }],
-		logo: Assets.ReactJs,
-		name: 'Cryptocurrency Application',
-		period: {
-			from: new Date('2022-05-25'),
-			to: new Date('2022 09 13 ')
-		},
-		skills: getSkills(
-			'reactjs',
-			'css',
-			'js',
-			'Restfulapi',
-			'postman',
-			'',
-			'netlify',
-			'git',
-			'github',
-			'mongodb',
-			'expressjs',
-			'nodejs'
-		),
-		type: 'CryptoCurrency Graphical Data Interface App',
-		screenshots: [
-			{
-				label: 'Home (Light)',
-				src: `${Assets.cryptoAppOne}`
-			},
-			{
-				label: 'Home (Dark)',
-				src: `${Assets.cryptoAppTwo}`
-			},
-			{
-				label: 'Dashboard (Light)',
-				src: `${Assets.cryptoAppThree}`
-			},
-			{
-				label: 'Dashboard (Dark)',
-				src: `${Assets.cryptoAppFour}`
-			},
-			{
-				label: "Coin's Historical Data",
-				src: `${Assets.cryptoAppFive}`
-			},
-			{
-				label: 'Dashboard When Logged In ',
-				src: `${Assets.cryptoAppSix}`
-			},
-			{
-				label: 'Footer',
-				src: `${Assets.cryptoAppSeven}`
-			}
-		]
-	},
-	// third application
-	{
-		slug: 'Weather_Application',
-		color: '#5e95e3',
-		description: WeatherProjectDescription.longDescription,
-		shortDescription: WeatherProjectDescription.shortDescription,
-		links: [{ to: 'https://wasifkhan00.github.io/weather/', label: labels }],
-		logo: Assets.JavaScript,
-		name: 'Real-time Weather Application',
-		period: {
-			from: new Date('2022-03-25'),
-			to: new Date('2022 10 11')
-		},
-		skills: getSkills('js', 'css', 'html', 'git', 'github', 'Restfulapi', 'postman'),
-		type: 'Real-time Weather Data based on your location',
-		screenshots: [
-			{
-				label: 'Home',
-				src: `${Assets.weatherOne}`
-			},
-			{
-				label: 'Hourly Weather Forecast',
-				src: `${Assets.weatherTwo}`
-			},
-			{
-				label: 'Hourly Forecast Cards',
-				src: `${Assets.weatherThree}`
-			},
-			{
-				label: 'Footer',
-				src: `${Assets.weatherFour}`
-			},
-			{
-				label: 'Weekly Forecast',
-				src: `${Assets.weatherFive}`
-			},
-			{
-				label: 'Weekly Forecast Cards',
-				src: `${Assets.weatherSix}`
-			}
-		]
-	},
-	// third application
-
-	{
 		slug: 'Messenger_Application',
 		color: '#5e95e3',
 		description: MessengerProjectDescription.longDescription,
@@ -243,10 +141,112 @@ export const items: Array<Project> = [
 			{
 				label: 'Adding More Friends in existing group',
 				src: `${Assets.chatAppFourteen}`
-			},
-			
+			}
 		]
 	},
+
+	{
+		slug: 'CryptoCurrency_Application',
+		color: '#5e95e3',
+		description: CryptoCurrencyProjectDescription.longDescription,
+		shortDescription: CryptoCurrencyProjectDescription.shortDescription,
+		links: [{ to: 'https://blockchainpal.netlify.app/', label: labels }],
+		logo: Assets.ReactJs,
+		name: 'Cryptocurrency Application',
+		period: {
+			from: new Date('2022-05-25'),
+			to: new Date('2022 09 13 ')
+		},
+		skills: getSkills(
+			'reactjs',
+			'css',
+			'js',
+			'Restfulapi',
+			'postman',
+			'',
+			'netlify',
+			'git',
+			'github',
+			'mongodb',
+			'expressjs',
+			'nodejs'
+		),
+		type: 'CryptoCurrency Graphical Data Interface App',
+		screenshots: [
+			{
+				label: 'Home (Light)',
+				src: `${Assets.cryptoAppOne}`
+			},
+			{
+				label: 'Home (Dark)',
+				src: `${Assets.cryptoAppTwo}`
+			},
+			{
+				label: 'Dashboard (Light)',
+				src: `${Assets.cryptoAppThree}`
+			},
+			{
+				label: 'Dashboard (Dark)',
+				src: `${Assets.cryptoAppFour}`
+			},
+			{
+				label: "Coin's Historical Data",
+				src: `${Assets.cryptoAppFive}`
+			},
+			{
+				label: 'Dashboard When Logged In ',
+				src: `${Assets.cryptoAppSix}`
+			},
+			{
+				label: 'Footer',
+				src: `${Assets.cryptoAppSeven}`
+			}
+		]
+	},
+
+	// third application end
+	{
+		slug: 'Weather_Application',
+		color: '#5e95e3',
+		description: WeatherProjectDescription.longDescription,
+		shortDescription: WeatherProjectDescription.shortDescription,
+		links: [{ to: 'https://wasifkhan00.github.io/weather/', label: labels }],
+		logo: Assets.JavaScript,
+		name: 'Real-time Weather Application',
+		period: {
+			from: new Date('2022-03-25'),
+			to: new Date('2022 10 11')
+		},
+		skills: getSkills('js', 'css', 'html', 'git', 'github', 'Restfulapi', 'postman'),
+		type: 'Real-time Weather Data based on your location',
+		screenshots: [
+			{
+				label: 'Home',
+				src: `${Assets.weatherOne}`
+			},
+			{
+				label: 'Hourly Weather Forecast',
+				src: `${Assets.weatherTwo}`
+			},
+			{
+				label: 'Hourly Forecast Cards',
+				src: `${Assets.weatherThree}`
+			},
+			{
+				label: 'Footer',
+				src: `${Assets.weatherFour}`
+			},
+			{
+				label: 'Weekly Forecast',
+				src: `${Assets.weatherFive}`
+			},
+			{
+				label: 'Weekly Forecast Cards',
+				src: `${Assets.weatherSix}`
+			}
+		]
+	},
+	// third application
 
 	{
 		slug: 'api',
@@ -260,7 +260,16 @@ export const items: Array<Project> = [
 			from: new Date('2022-09-24'),
 			to: new Date('2022 10 1')
 		},
-		skills: getSkills('Restfulapi', 'expressjs', 'mongodb','nodejs','postman','js','github', 'git'),
+		skills: getSkills(
+			'Restfulapi',
+			'expressjs',
+			'mongodb',
+			'nodejs',
+			'postman',
+			'js',
+			'github',
+			'git'
+		),
 		type: 'Fetch Scientific Info API',
 		screenshots: [
 			{

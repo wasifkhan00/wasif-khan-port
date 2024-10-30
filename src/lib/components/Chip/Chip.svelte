@@ -24,6 +24,7 @@
 	this={href ? 'a' : 'button'}
 	bind:this={el}
 	{href}
+	target={href ? '_blank' : undefined}
 	class={className}
 	on:click
 	on:keydown
