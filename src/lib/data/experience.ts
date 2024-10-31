@@ -4,18 +4,18 @@ import { ContractType, type Experience } from '../types';
 
 export const items: Array<Experience> = [
 	{
-		slug: 'Frontend_Developer',
-		company: 'Grey Journal',
+		slug: 'ihealth',
+		company: 'ihealthwellness',
 		description: 'Deve',
 		shortDescription: 'Creating awesome tools for developers.',
 		contract: ContractType.PartTime,
-		type: 'Software Development',
+		type: 'Fullstack Developer',
 		location: 'New York, USA (Remote)',
 		period: { from: new Date('2024-09-10'), to: new Date('2024-10-10') },
 		skills: getSkills('ts', 'js'),
-		name: 'Grey Journal',
+		name: 'Fullstack Developer',
 		color: 'red',
-		logo: 'https://media.licdn.com/dms/image/v2/C4E0BAQF8BAO3P1p_uA/company-logo_200_200/company-logo_200_200/0/1631307147394?e=1738195200&v=beta&t=L1gOhxWiERouFZiVq4mvzpyvEUVKG4YnX9uDuh7du54',
+		logo:Assets.Ihealth,
 		links: [
 			{
 				label: 'Visit Company',
@@ -24,18 +24,18 @@ export const items: Array<Experience> = [
 		],
 	},
 	{
-		slug: 'Backend_Developer',
+		slug: 'inhouse',
 		company: 'In-house',
 		description: 'Creating awesome applications for customers.',
 		shortDescription: 'Creating awesome applications for customers.',
 		contract: ContractType.PartTime,
-		type: 'Software Development',
+		type: 'Frontend Developer',
 		location: 'New York, USA (Remote)',
-		period: { from: new Date('2024-09-10'), to: new Date('2024-10-10') },
+		period: { from: new Date('2022-08-10'), to: new Date('2023-09-10') },
 		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Backend Developer',
+		name: 'Frontend Developer',
 		color: 'blue',
-		logo: `https://media.licdn.com/dms/image/v2/C560BAQE5aTGyaCjDfQ/company-logo_200_200/company-logo_200_200/0/1630652084887/in_house6_logo?e=1738195200&v=beta&t=C0AB_6yzSEFNFnkcMIgGdy_ii1KjGGpjvEgiFTvyeZA`,
+		logo:Assets.Inhouse,
 		links: [
 			{
 				label: 'Visit Company',
@@ -44,18 +44,38 @@ export const items: Array<Experience> = [
 		],
 	},
 	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
+		slug: 'grey_journal',
+		company: 'Grey Journal',
 		description: 'Creating awesome applications for customers.',
 		shortDescription: 'Creating awesome applications for customers.',
-		contract: ContractType.PartTime,
+		contract: ContractType.Internship,
+		type: 'Software Development',
+		location: 'New York, USA (Remote)',
+		period: { from: new Date('2021-06-25'), to: new Date('2022-07-30') },
+		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
+		name: 'Web Content Writer',
+		color: 'blue',
+		logo:Assets.greyjournal,
+		links: [
+			{
+				label: 'Visit Company',
+				to: 'https://google.com/',
+			}
+		],
+	},
+	{
+		slug: 'upwork',
+		company: 'Upwork',
+		description: 'Creating awesome applications for customers.',
+		shortDescription: 'Creating awesome applications for customers.',
+		contract: ContractType.Freelance,
 		type: 'Software Development',
 		location: 'Home',
-		period: { from: new Date('2024-09-10'), to: new Date('2024-10-10') },
+		period: { from: new Date('2021-02-01'), to: new Date('2021-06-01') },
 		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
+		name: 'Junior Web Developer',
 		color: 'green',
-		logo: `https://media.licdn.com/dms/image/v2/C560BAQE5aTGyaCjDfQ/company-logo_200_200/company-logo_200_200/0/1630652084887/in_house6_logo?e=1738195200&v=beta&t=C0AB_6yzSEFNFnkcMIgGdy_ii1KjGGpjvEgiFTvyeZA`,
+		logo: Assets.upwork,
 		links: [
 			{
 				label: 'Visit Company',
