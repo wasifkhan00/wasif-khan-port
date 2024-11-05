@@ -210,6 +210,7 @@ This initial experience laid the foundation for his later contributions to open 
 		logo: Assets.Github,
 		name: 'Github',
 		category: 'devtools'
+	
 	}),
 	defineSkill({
 		slug: 'netlify',
