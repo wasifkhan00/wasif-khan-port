@@ -295,6 +295,18 @@ Eager to deepen his skills, Wasif is enthusiastic about training custom models a
 		logo: Assets.TensorFLow,
 		name: 'TensorFlow',
 		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'redis',
+		color: 'orange',
+		description: `Wasif Khan's experience with Redis demonstrates his ability to integrate powerful tools into his applications to enhance performance and reliability. Having gained a basic understanding of Redis, Wasif uses it for caching data from his database, a common practice to improve application speed and reduce database load. By leveraging Redis, he has been able to make his application faster, more reliable, and cost-effective.
+
+The speed of data retrieval from RAM is one of the key reasons Wasif appreciates Redis. Its in-memory data store capabilities make it an ideal choice for caching, as it allows for extremely fast access to frequently requested data. This reduces the time spent on database queries, which is especially important for applications with high traffic or demanding performance requirements.
+
+Redis has proven to be a valuable tool in Wasif's development toolkit, solving many performance-related issues and enabling him to build more efficient and scalable systems. His positive experience with Redis highlights the importance of using the right tools to address specific challenges in software development and improve overall application performance.`,
+		logo: Assets.Redis,
+		name: 'Redis',
+		category: 'devtools'
 	})
 ] as const;
 
