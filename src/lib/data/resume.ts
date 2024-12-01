@@ -1,4 +1,4 @@
-import resume from './WasifKhanResume2024.pdf'
+import resume from './WasifKhanResume2025.pdf'
 
 export const data = resume;
 
