@@ -13,7 +13,7 @@ export const items: Array<Experience> = [
 		location: 'New York, USA (Remote)',
 		period: { from: new Date('2024-09-1') },
 		skills: getSkills('ts', 'js'),
-		name: 'Fullstack Developer',
+		name: 'Full-Stack Developer',
 		color: 'red',
 		logo: Assets.Ihealth,
 		links: [
@@ -33,7 +33,7 @@ export const items: Array<Experience> = [
 		location: 'Brooklyn NY, USA (Remote)',
 		period: { from: new Date('2022-08-06'), to: new Date('2023-09-10') },
 		skills: getSkills('ts', 'js'),
-		name: 'Frontend Developer',
+		name: 'Full-Stack Developer',
 		color: 'red',
 		logo: Assets.inhouse,
 		links: [

@@ -65,6 +65,15 @@ This experience reinforced his belief in the importance of strong typing in mode
 		category: 'pro-lang'
 	}),
 	defineSkill({
+		slug: 'sql',
+		color: 'yellow',
+		description:
+			'',
+		logo: Assets.SQL,
+		name: 'SQL',
+		category: 'pro-lang'
+	}),
+	defineSkill({
 		slug: 'css',
 		color: 'blue',
 		description:
@@ -306,7 +315,15 @@ The speed of data retrieval from RAM is one of the key reasons Wasif appreciates
 Redis has proven to be a valuable tool in Wasif's development toolkit, solving many performance-related issues and enabling him to build more efficient and scalable systems. His positive experience with Redis highlights the importance of using the right tools to address specific challenges in software development and improve overall application performance.`,
 		logo: Assets.Redis,
 		name: 'Redis',
-		category: 'devtools'
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'postgres',
+		color: 'orange',
+		description: ``,
+		logo: Assets.PostgreSQL,
+		name: 'PostgreSQL',
+		category: 'db'
 	})
 ] as const;
 

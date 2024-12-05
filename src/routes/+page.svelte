@@ -26,7 +26,7 @@
 	<div class="md:flex-1 gap-10px">
 		<MainTitle classes="md:text-left ">{name} {lastName}</MainTitle>
 		<p class="text-[var(--tertiary-text)]  text-center md:text-left text-[1.2em] font-extralight">
-			I am a full-stack web developer with a passion for frontend & backend development and a years of professional and 2 years of programming experience. Skilled in ReactJS, NextJS, NodeJS,MongoDb, Dockers, AWS and more, I thrive on solving complex problems and collaborating with others. In my free time, I contribute to open-source projects and explore trending tech tools of AI. I’m eager to continue growing my skills and look forward to new opportunities and challenges.
+			I am a full-stack web developer with a passion for frontend & backend development and 1+ year  of professional and 2 years of programming experience. Skilled in ReactJS, NextJS, NodeJS,MongoDb, Dockers, AWS and more, I thrive on solving complex problems and collaborating with others. In my free time, I contribute to open-source projects and explore trending tech tools of AI. I’m eager to continue growing my skills and look forward to new opportunities and challenges.
 		</p>
 		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 			{#each links as link}
