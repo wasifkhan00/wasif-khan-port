@@ -52,6 +52,7 @@ const Assets = {
 	Android: a('android.png'),
 	Angular: a('angular.png'),
 	PostgreSQL: a('postgres.png'),
+	SQL: a('sql.png'),
 	Firebase: a('firebase.png'),
 	Sass: a('sass.png'),
 	Unknown: a('no-img.svg'),
