@@ -63,7 +63,7 @@ export const items: Array<Project> = [
 		color: '#5e95e3',
 		description: MessengerProjectDescription.longDescription,
 		shortDescription: MessengerProjectDescription.shortDescription,
-		links: [{ to: 'https://communicado.netlify.app/', label: labels }],
+		links: [{ to: 'https://snaptext.netlify.app/', label: labels }],
 		logo: Assets.ReactJs,
 		name: 'Real-time Communication Application',
 		period: {
